@@ -2,6 +2,12 @@
 
 [Follow this official link](https://docs.docker.com/engine/install/ubuntu/)
 
+## Install Docker compose using below command
+
+```
+apt install -y docker-compose
+```
+
 ## Docker compose to run n8n
 
 ```
@@ -30,6 +36,11 @@ volumes:
 ```
 
 
+## Command to install Nginx
+```
+apt-get install -y nginx
+```
+
 ## Nginx minimum configuration
 - minimum nginx configuration to get the certificate
 ```
@@ -37,6 +48,13 @@ server {
     listen 80;
     server_name neightn.gobotify.com;
 }
+```
+
+## Install certbot with below commands
+
+```
+apt-get install -y certbot
+apt-get install python3-certbot-nginx
 ```
 
 - command to get free certificate using certbot
